@@ -7,8 +7,15 @@
     margin-left: 2rem;
     padding: 3rem;
     color: white;
+    height: 200px;
+    width: 500px;
 }
 
 .form-control {
     margin-left: 2rem;
+}
+
+.form-label {
+    width: 10rem;
+    display: inline-block;
 }

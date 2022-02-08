@@ -1,4 +1,13 @@
 .View {
-    background-color: cornflowerblue;
     margin-left: 2rem;
+    padding: 3rem;
+    color: rgb(43, 145, 177);
+    height: 200px;
+    width: 495px;
+    border:rgb(43, 145, 177) solid 3px;
+}
+
+span {
+    width: 10rem;
+    display: inline-block;
 }
