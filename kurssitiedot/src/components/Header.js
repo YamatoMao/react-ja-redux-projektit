@@ -1,6 +1,7 @@
 import Content from "./Content";
 
-const Header = ({course}) => {
+const Header = ( {course} ) => {
+    console.log(course);
     return (
         <div>
         <hr />

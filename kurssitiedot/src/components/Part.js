@@ -1,6 +1,6 @@
-import React from 'react';
-
-const Part = (props) => {
+const Part = ({part}) => {
+  // let part = props.part;
+  console.log(part);
   return (
     <div>
       <hr />
@@ -8,7 +8,8 @@ const Part = (props) => {
         {/* {course.parts.map((kurssi) => (
           <li key={kurssi.id}>{kurssi.name}{' ' + kurssi.exercises}</li>
         ))} */}
-        <li>{props.course.parts[props.osa].name + ' '}{props.course.parts[props.osa].exercises}</li>
+        {/* <li>{props.course.parts[props.osa].name + ' '}{props.course.parts[props.osa].exercises}</li> */}
+        <li>{part.name} {part.exercises}</li>
     </div>
   );
 };
